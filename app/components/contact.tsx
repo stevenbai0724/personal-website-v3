@@ -22,7 +22,7 @@ const Contact: FC = () => {
       <div className='mb-1'>
         <label
           htmlFor='name'
-          className='mb-3 block text-base font-medium text-black'
+          className='mb-3 block text-base font-medium text-white'
         >
           Full Name
         </label>
@@ -33,10 +33,10 @@ const Contact: FC = () => {
           {...register('name', { required: true })}
         />
       </div>
-      <div className='mb-1'>
+      <div className='mb-1 mt-4'>
         <label
           htmlFor='email'
-          className='mb-3 block text-base font-medium text-black'
+          className='mb-3 block text-base font-medium text-white'
         >
           Email Address
         </label>
@@ -47,10 +47,10 @@ const Contact: FC = () => {
           {...register('email', { required: true })}
         />
       </div>
-      <div className='mb-5'>
+      <div className='mb-5 mt-4'>
         <label
           htmlFor='message'
-          className='mb-3 block text-base font-medium text-black'
+          className='mb-3 block text-base font-medium text-white'
         >
           Message
         </label>

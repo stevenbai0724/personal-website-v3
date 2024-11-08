@@ -56,7 +56,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className="antialiased md:w-2xl mx-4 mt-8 lg:mx-auto">
+      <body className="w-full px-2 antialiased md:w-2xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto w-full flex flex-col justify-center items-center px-2 md:px-0">
           <Navbar />
           <div className="min-h-screen w-full">

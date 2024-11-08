@@ -29,7 +29,7 @@ export default function Page() {
       company: "Datacurve",
       position: "Data Engineer (Part time), 2024",
       gradient: "from-blue-800 to-gray-900",
-      description: "🔍 Curated AI datasets for enhanced LLM's and AI models.",
+      description: "🔍 Curated advanced datasets for enhanced LLM's and AI models.",
       link: "https://datacurve.ai"
     },
     {
@@ -37,7 +37,7 @@ export default function Page() {
       company: "Rich Media",
       position: "Full Stack Developer Intern (2023)",
       gradient: "from-yellow-800 to-gray-900",
-      description: "💸 Developed software solutions thousands of TD & Scotiabank users.",
+      description: "💸 Developed software solutions for clients at TD & Scotiabank.",
       link: "https://richmedia.com"
     },
     {
@@ -92,7 +92,7 @@ export default function Page() {
         {`Feel free to reach out if you'd like to discuss opportunities, have a quick coffee chat, or just say hi! I'm always looking forward to meeting new people.`}
       </p>
 
-      <div className="flex flex-col items-center mt-8">
+      <div className="flex flex-col items-center mt-8 mb-4">
         <div className="relative bg-white w-48 h-48 rounded-full overflow-hidden">
           <Image
             src="/images/stevenbai.jpg"

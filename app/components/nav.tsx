@@ -12,7 +12,7 @@ const navItems = {
 export function Navbar() {
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="fixed top-0 bg-black left-0 w-full py-3 flex flex-row justify-center">
+      <div className="fixed top-0 bg-black z-90 left-0 w-full py-3 flex flex-row justify-center">
         <nav
           className="flex flex-row w-2xl justify-center relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
           id="nav"
