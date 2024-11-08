@@ -38,7 +38,7 @@ html {
 
   margin-left: -1em;
   padding-right: 0.5em;
-  width: 80%;
+  width: 100%;
   max-width: 700px;
   cursor: pointer;
 }
@@ -147,4 +147,19 @@ table {
 
 .title {
   text-wrap: balance;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
 }

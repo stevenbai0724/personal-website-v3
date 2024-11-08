@@ -11,8 +11,8 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Steven Bai',
+    template: '%s | Steven Bai',
   },
   description: 'This is my portfolio.',
   openGraph: {
@@ -46,16 +46,22 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
+        'text-black bg-white dark:text-white dark:bg-black flex flex-col items-center',
         GeistSans.variable,
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
+      <body className="antialiased md:w-2xl mx-4 mt-8 lg:mx-auto">
+        <main className="flex-auto w-full flex flex-col justify-center items-center px-2 md:px-0">
           <Navbar />
+          <div className="min-h-screen w-full">
           {children}
+          </div>
           <Footer />
           <Analytics />
           <SpeedInsights />
