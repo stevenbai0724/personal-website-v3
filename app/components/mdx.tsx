@@ -31,17 +31,17 @@ function CustomLink(props) {
 
   if (href.startsWith('/')) {
     return (
-      <Link href={href} {...props}>
+      <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href={href} {...props}>
         {props.children}
       </Link>
     )
   }
 
   if (href.startsWith('#')) {
-    return <a {...props} />
+    return <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" {...props} />
   }
 
-  return <a target="_blank" rel="noopener noreferrer" {...props} />
+  return <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" rel="noopener noreferrer" {...props} />
 }
 
 function RoundedImage(props) {

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import ExperienceCard from './components/experienceCard' 
 import { experienceProps } from './components/experienceCard'
 import Contact from './components/contact'
+import AnimatedSection from './components/AnimatedSection'
 
 export default function Page() {
 
@@ -52,21 +53,26 @@ export default function Page() {
 
   return (
     <section>
-      <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
-        About Me
-      </h1>
-      <p className="mb-4 text-md md:text-lg">
-        {`Hello! My name is Steven, I'm an experienced Software Engineer with a strong interest in AI/ML, full stack development, data structures, algorithms and solving complex problems under a crunch time period.`}
-      </p>
-      <p className="mb-4 text-md md:text-lg">
-        {`I am a third-year CS student at the University of Waterloo. I like to create videos of my journey on`} <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.youtube.com/@stevenbai0724" target='_blank'>YouTube</a>{`, and sometimes`} <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="/blog">writing</Link>{` about interesting topics. I also enjoy a unique combination of competitive sports - swimming, kickboxing/MMA and powerlifting.`}
-      </p>
-      <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
-        Experience
-      </h1>
-      <p className="mb-4 text-md md:text-lg">
-        {`Here's a quick glimpse of my Software Engineering career and the companies I've had the opportunity to work with:`}
-      </p>
+      <AnimatedSection>
+        <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
+          About Me
+        </h1>
+        <p className="mb-4 text-md md:text-lg">
+          {`Hello! My name is Steven, I'm an experienced Software Engineer with a strong interest in AI/ML, full stack development, data structures, algorithms and solving complex problems under a crunch time period.`}
+        </p>
+        <p className="mb-4 text-md md:text-lg">
+          {`I am a third-year CS student at the University of Waterloo. I like to create videos of my journey on`} <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.youtube.com/@stevenbai0724" target='_blank'>YouTube</a>{`, and sometimes`} <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="/blog">writing</Link>{` about interesting topics. I also enjoy a unique combination of competitive sports - swimming, kickboxing/MMA and powerlifting.`}
+        </p>
+      </AnimatedSection>
+      <AnimatedSection>
+        <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
+          Experience
+        </h1>
+        <p className="mb-4 text-md md:text-lg">
+          {`Here's a quick glimpse of my Software Engineering career and the companies I've had the opportunity to work with:`}
+        </p>
+      </AnimatedSection>
+      
       
       {
         companies.map((object, index) => {
@@ -85,28 +91,29 @@ export default function Page() {
         })
       }
 
-      <h1 className="mt-8 mb-4 text-2xl font-semibold tracking-tighter">
-        Contact Me
-      </h1>
-      <p className="mb-4 text-md md:text-lg">
-        {`Feel free to reach out if you'd like to discuss opportunities, have a quick coffee chat, or just say hi! I'm always looking forward to meeting new people.`}
-      </p>
+      <AnimatedSection>
+        <h1 className="mt-8 mb-4 text-2xl font-semibold tracking-tighter">
+          Contact Me
+        </h1>
+        <p className="mb-4 text-md md:text-lg">
+          {`Feel free to reach out if you'd like to discuss opportunities, have a quick coffee chat, or just say hi! I'm always looking forward to meeting new people.`}
+        </p>
 
-      <div className="flex flex-col items-center mt-8 mb-4">
-        <div className="relative bg-white w-48 h-48 rounded-full overflow-hidden">
-          <Image
-            src="/images/stevenbai.jpg"
-            alt={`steven bai`}
-            layout='fill'
-            objectFit='cover'
-          />
+        <div className="flex flex-col items-center mt-8 mb-4">
+          <div className="relative bg-white w-48 h-48 rounded-full overflow-hidden">
+            <Image
+              src="/images/stevenbai.jpg"
+              alt={`steven bai`}
+              layout='fill'
+              objectFit='cover'
+            />
+          </div>
         </div>
-      </div>
-
-
-
-
-      <Contact></Contact>
+      
+      </AnimatedSection>
+      <AnimatedSection>
+        <Contact></Contact>
+      </AnimatedSection>
 
 
     </section>
