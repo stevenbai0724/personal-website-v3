@@ -22,42 +22,42 @@ const Contact: FC = () => {
       <div className='mb-1'>
         <label
           htmlFor='name'
-          className='mb-3 block text-base font-medium text-white'
+          className='mb-3 block text-base font-medium'
         >
           Full Name
         </label>
         <input
           type='text'
           placeholder='Full Name'
-          className='w-full rounded-md border border-gray-300 bg-gray-800 py-3 px-6 text-base font-sm text-white outline-none focus:border-purple-500 focus:shadow-md'
+          className='w-full rounded-md border border-gray-300 dark:bg-gray-800 py-3 px-3 text-base font-sm outline-none focus:border-purple-500 focus:shadow-md'
           {...register('name', { required: true })}
         />
       </div>
       <div className='mb-1 mt-4'>
         <label
           htmlFor='email'
-          className='mb-3 block text-base font-medium text-white'
+          className='mb-3 block text-base font-medium'
         >
           Email Address
         </label>
         <input
           type='email'
           placeholder='example@domain.com'
-          className='w-full rounded-md border border-gray-300 bg-gray-800 py-3 px-6 text-base font-sm text-white outline-none focus:border-purple-500 focus:shadow-md'
+          className='w-full rounded-md border border-gray-300 dark:bg-gray-800 py-3 px-3 text-base font-sm outline-none focus:border-purple-500 focus:shadow-md'
           {...register('email', { required: true })}
         />
       </div>
       <div className='mb-5 mt-4'>
         <label
           htmlFor='message'
-          className='mb-3 block text-base font-medium text-white'
+          className='mb-3 block text-base font-medium'
         >
           Message
         </label>
         <textarea
           rows={4}
           placeholder='Type your message'
-          className='w-full resize-none rounded-md border border-gray-300 bg-gray-800 py-3 px-6 text-base font-sm text-white outline-none focus:border-purple-500 focus:shadow-md'
+          className='w-full resize-none rounded-md border border-gray-300 dark:bg-gray-800 py-3 px-3 text-base font-sm outline-none focus:border-purple-500 focus:shadow-md'
           {...register('message', { required: true })}
         ></textarea>
       </div>

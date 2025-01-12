@@ -14,7 +14,7 @@ export default function Page() {
       company: "Constant Contact",
       position: "Software Developer Intern (2025)",
       gradient: "from-blue-900 to-gray-900",
-      description: "🚀 Incoming developer on Innovation Labs team!",
+      description: "🚀 Scaling contact import system using AWS S3, Kubernetes, and Aurora to streamline bulk data processing.",
       link: "https://www.constantcontact.com/"
     },
     {
@@ -22,7 +22,7 @@ export default function Page() {
       company: "Algomonster",
       position: "Software Engineer Intern (2024)",
       gradient: "from-purple-900 to-gray-900",
-      description: "💡 Engineered AI workflows & scalable DSA learning platform.",
+      description: "💡 Engineered scalable DSA learning platform with Next.js, Firebase, and AI-driven tools.",
       link: "https://algo.monster"
     },
     {
@@ -30,7 +30,7 @@ export default function Page() {
       company: "Datacurve",
       position: "Data Engineer (Part time), 2024",
       gradient: "from-blue-800 to-gray-900",
-      description: "🔍 Curated advanced datasets for enhanced LLM's and AI models.",
+      description: "🔍 Curated datasets and debugged complex programs for generative AI models using Python and C++.",
       link: "https://datacurve.ai"
     },
     {
@@ -38,7 +38,7 @@ export default function Page() {
       company: "Rich Media",
       position: "Full Stack Developer Intern (2023)",
       gradient: "from-yellow-800 to-gray-900",
-      description: "💸 Developed software solutions for clients at TD & Scotiabank.",
+      description: "💸 Developed banking tools with Angular, Jenkins, and Playwright, used by thousands of daily users.",
       link: "https://richmedia.com"
     },
     {
@@ -46,7 +46,7 @@ export default function Page() {
       company: "iContribute",
       position: "Frontend Developer Intern (2021)",
       gradient: "from-lime-800 to-gray-900",
-      description: "🌐 Implemented cross-platform app for volunteers & non-profits.",
+      description: "🌐 Built a React Native app with Firebase, connecting volunteers to opportunities during the pandemic.",
       link: "https://icontribute.site"
     },
   ]
@@ -61,7 +61,7 @@ export default function Page() {
           {`Hello! My name is Steven, I'm an experienced Software Engineer with a strong interest in AI/ML, full stack development, data structures, algorithms and solving complex problems under a crunch time period.`}
         </p>
         <p className="mb-4 text-md md:text-lg">
-          {`I am a third-year CS student at the University of Waterloo. I like to create videos of my journey on`} <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.youtube.com/@stevenbai0724" target='_blank'>YouTube</a>{`, and sometimes`} <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="/blog">writing</Link>{` about interesting topics. I also enjoy a unique combination of competitive sports - swimming, kickboxing/MMA and powerlifting.`}
+          {`I am a third-year CS student at the University of Waterloo. I like to create videos of my journey on`} <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.youtube.com/@stevenbai0724" target='_blank'>YouTube</a>{`, and sometimes`} <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="/blog">writing</Link>{` about interesting topics. I also enjoy a unique combination of competitive sports - swimming and kickboxing/MMA.`}
         </p>
       </AnimatedSection>
       <AnimatedSection>
@@ -82,7 +82,6 @@ export default function Page() {
               image={object.image}
               company={object.company}
               position={object.position}
-              gradiant={object.gradient}
               description={object.description}
               link={object.link}
               
