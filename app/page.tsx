@@ -10,11 +10,19 @@ export default function Page() {
 
   const companies = [
     {
+      image: "/logos/wealthsimple.jpeg",
+      company: "Wealthsimple",
+      position: "Incoming Software Developer Intern (2025)",
+      gradient: "from-blue-900 to-gray-900",
+      description: "🏆 Tiers/Advisory team - building services for premium users across both frontend and backend.",
+      link: "https://www.wealthsimple.com/"
+    },
+    {
       image: "/logos/constant_contact.png",
       company: "Constant Contact",
       position: "Software Developer Intern (2025)",
       gradient: "from-blue-900 to-gray-900",
-      description: "🚀 Scaling contact import system using AWS S3, Kubernetes, and Aurora to streamline bulk data processing.",
+      description: "🚀 Scaling contact import system using LLM, AWS services, Docker and Kubernetes to handle 80M+ contacts/month.",
       link: "https://www.constantcontact.com/"
     },
     {
@@ -61,7 +69,7 @@ export default function Page() {
           {`Hello! My name is Steven, I'm an experienced Software Engineer with a strong interest in AI/ML, full stack development, data structures, algorithms and solving complex problems under a crunch time period.`}
         </p>
         <p className="mb-4 text-md md:text-lg">
-          {`I am a third-year CS student at the University of Waterloo. I like to create videos of my journey on`} <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.youtube.com/@stevenbai0724" target='_blank'>YouTube</a>{`, and sometimes`} <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="/blog">writing</Link>{` about interesting topics. I also enjoy a unique combination of competitive sports - swimming and kickboxing/MMA.`}
+          {`I am a third-year CS student at the University of Waterloo. I like to create videos of my journey on`} <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.youtube.com/@stevenbai0724" target='_blank'>YouTube</a>{`, and sometimes`} <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="/blog">writing</Link>{` about interesting topics. I also enjoy a unique combination of competitive sports - swimming and kickboxing.`}
         </p>
       </AnimatedSection>
       <AnimatedSection>
