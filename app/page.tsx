@@ -12,9 +12,9 @@ export default function Page() {
     {
       image: "/logos/wealthsimple.jpeg",
       company: "Wealthsimple",
-      position: "Incoming Software Developer Intern (2025)",
+      position: "Software Developer Intern (2025)",
       gradient: "from-blue-900 to-gray-900",
-      description: "🏆 Tiers/Advisory team - building services for premium users across both frontend and backend.",
+      description: "🏆 Tiers/Advisory team - building advisory services for premium and generation users across both frontend and backend.",
       link: "https://www.wealthsimple.com/"
     },
     {
@@ -22,7 +22,7 @@ export default function Page() {
       company: "Constant Contact",
       position: "Software Developer Intern (2025)",
       gradient: "from-blue-900 to-gray-900",
-      description: "🚀 Scaling contact import system using LLM, AWS services, Docker and Kubernetes to handle 80M+ contacts/month.",
+      description: "🚀 Scaled contact import system using LLM, AWS services, Docker and Kubernetes to handle 80M+ contacts/month.",
       link: "https://www.constantcontact.com/"
     },
     {
@@ -32,14 +32,6 @@ export default function Page() {
       gradient: "from-purple-900 to-gray-900",
       description: "💡 Engineered scalable DSA learning platform with Next.js, Firebase, and AI-driven tools.",
       link: "https://algo.monster"
-    },
-    {
-      image: "/logos/datacurve.svg", // Replace with the appropriate logo path
-      company: "Datacurve",
-      position: "Data Engineer (Part time), 2024",
-      gradient: "from-blue-800 to-gray-900",
-      description: "🔍 Curated datasets and debugged complex programs for generative AI models using Python and C++.",
-      link: "https://datacurve.ai"
     },
     {
       image: "/logos/richmedia.png", // Replace with the appropriate logo path
