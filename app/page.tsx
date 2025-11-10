@@ -10,11 +10,19 @@ export default function Page() {
 
   const companies = [
     {
+      image: "/logos/rundoo.png",
+      company: "Rundoo",
+      position: "Software Engineer Intern (2026)",
+      gradient: "from-blue-900 to-gray-900",
+      description: "🎨 Incoming intern in the Bay Area, powering point-of-sale and payments for supply businesses.",
+      link: "https://getrundoo.com"
+    },
+    {
       image: "/logos/wealthsimple.jpeg",
       company: "Wealthsimple",
       position: "Software Developer Intern (2025)",
       gradient: "from-blue-900 to-gray-900",
-      description: "🏆 Tiers/Advisory team - building advisory services for premium and generation users across both frontend and backend.",
+      description: "🏆 Built a BI dashboard for Wealthsimple Wealth Management to analyze client behavior and portfolio performance.",
       link: "https://www.wealthsimple.com/"
     },
     {
@@ -22,15 +30,23 @@ export default function Page() {
       company: "Constant Contact",
       position: "Software Developer Intern (2025)",
       gradient: "from-blue-900 to-gray-900",
-      description: "🚀 Scaled contact import system using LLM, AWS services, Docker and Kubernetes to handle 80M+ contacts/month.",
+      description: "🚀 Integrated AI-powered data classification into a contact import system for SMBs, scaling to 80M+ uploads monthly.",
       link: "https://www.constantcontact.com/"
+    },
+    {
+      image: "/logos/datacurve.svg",
+      company: "Datacurve",
+      position: "Software Engineer (2024, Contract)",
+      gradient: "from-purple-900 to-gray-900",
+      description: "🧠 Benchmarked and curated coding datasets to improve specialized LLM performance.",
+      link: "https://datacurve.ai"
     },
     {
       image: "/logos/algomonster.png",
       company: "Algomonster",
       position: "Software Engineer Intern (2024)",
       gradient: "from-purple-900 to-gray-900",
-      description: "💡 Engineered scalable DSA learning platform with Next.js, Firebase, and AI-driven tools.",
+      description: "💡 Created interactive DSA learning experiences used by thousands of aspiring engineers worldwide.",
       link: "https://algo.monster"
     },
     {
@@ -38,16 +54,8 @@ export default function Page() {
       company: "Rich Media",
       position: "Full Stack Developer Intern (2023)",
       gradient: "from-yellow-800 to-gray-900",
-      description: "💸 Developed banking tools with Angular, Jenkins, and Playwright, used by thousands of daily users.",
+      description: "💸 Built digital banking tools for TD and Scotiabank as part of an agency team, used by thousands of customers daily.",
       link: "https://richmedia.com"
-    },
-    {
-      image: "/logos/icontribute.png", // Replace with the appropriate logo path
-      company: "iContribute",
-      position: "Frontend Developer Intern (2021)",
-      gradient: "from-lime-800 to-gray-900",
-      description: "🌐 Built a React Native app with Firebase, connecting volunteers to opportunities during the pandemic.",
-      link: "https://icontribute.site"
     },
   ]
 
@@ -58,10 +66,10 @@ export default function Page() {
           About Me
         </h1>
         <p className="mb-4 text-md md:text-lg">
-          {`Hello! My name is Steven, I'm an experienced Software Engineer with a strong interest in AI/ML, full stack development, data structures, algorithms and solving complex problems under a crunch time period.`}
+          {`Hello, my name is Steven! I'm a 4th year CS student at the University of Waterloo and an experienced Software Engineer who loves solving complex problems under crunch time periods.`}
         </p>
         <p className="mb-4 text-md md:text-lg">
-          {`I am a third-year CS student at the University of Waterloo. I like to create videos of my journey on`} <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.youtube.com/@stevenbai0724" target='_blank'>YouTube</a>{`, and sometimes`} <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="/blog">writing</Link>{` about interesting topics. I also enjoy a unique combination of competitive sports - swimming and kickboxing.`}
+          {`I like to create videos of my journey on`} <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.youtube.com/@stevenbai0724" target='_blank'>YouTube</a>{`, and soon hopefully start`} <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="/blog">writing</Link>{` about interesting topics. Nowadays I like lifting weights to stay active, and I used to compete in swimming and kickboxing.`}
         </p>
       </AnimatedSection>
       <AnimatedSection>
