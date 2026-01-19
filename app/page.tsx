@@ -14,7 +14,7 @@ export default function Page() {
       company: "Rundoo",
       position: "Software Engineer Intern (2026)",
       gradient: "from-blue-900 to-gray-900",
-      description: "🎨 Incoming intern in the Bay Area, powering point-of-sale and payments for supply businesses.",
+      description: "🎨 Building POS and inventory software enabling vendor ordering through integrations.",
       link: "https://getrundoo.com"
     },
     {
@@ -22,7 +22,7 @@ export default function Page() {
       company: "Wealthsimple",
       position: "Software Developer Intern (2025)",
       gradient: "from-blue-900 to-gray-900",
-      description: "🏆 Built a BI dashboard for Wealthsimple Wealth Management to analyze client behavior and portfolio performance.",
+      description: "🏆 Built a BI dashboard for Wealthsimple Wealth Management analyzing $300M+ AUM across 600+ high-net-worth clients.",
       link: "https://www.wealthsimple.com/"
     },
     {
